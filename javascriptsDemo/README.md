@@ -1,0 +1,5 @@
+# docker build . -t ansh2440/js-demo
+
+# docker run --rm ansh2440/js-demo node demo3.js
+
+# docker run -i -t --rm -v "$(pwd):/app" -w /app node:24-alpine sh 
